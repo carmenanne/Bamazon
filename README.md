@@ -30,25 +30,23 @@ This is a Node-based application designed to run in your terminal. You will need
 ### Customer View
 From the customer view in the terminal a user will be able to do the following:
 
-View a list of current products for sale:
+1. View a list of current products for sale:
 
 ![products image](/images/store_front.PNG)
 
-2.Choose a product to purchase and the amount they desire:
-
-(GIF link)
+2. Choose a product to purchase and the amount they desire:
 
 If there is enough product in stock to complete the user’s order, the order will go through and display the total cost to the customer.
 
-(GIF link)
+![product bought](/images/product_bought.gif)
 
 If there is not enough of the product, the store will bounce back with a message explaining there is not enough.
 
-(GIF link)
+![not enough inventory](/images/not_enough.gif.gif)
 
 From there, it will prompt the user if they wish to continue shopping or finish, at which point it will return them to the opening prompt or end the application.
 
-(screenshot)
+![keep shopping](/images/keep_shopping.PNG)
 
 ### Manager View
 As a manager, the user will first be prompted with a list of options to choose from, that will then allow the user to complete different actions within the store:
@@ -56,11 +54,11 @@ As a manager, the user will first be prompted with a list of options to choose f
  
 *View Products:
 
-(img screenshot)
+![view products](/images/view_products.PNG)
 
 *Low Inventory:
 
-(img screenshot)
+![low inventory](/images/low_inventory.PNG)
 
 *Add to Inventory:
 
@@ -70,9 +68,6 @@ As a manager, the user will first be prompted with a list of options to choose f
 
 (GIF link)
 
-Once the selection has been made it will prompt the manager if they wish to return to the home menu or exit the program, at which point it will either return the beginning list options, or exit the application.
-
-(img screenshot)
 
 ## Author
 Carmen Stockberger - (github link)
