@@ -4,22 +4,23 @@ This is a CLI application which functions like an online storefront. With two di
 ## Getting Started
 Since this app requires MySQL, you will need to make sure that package is installed on your computer first. Windows users can use MySQL Workbench and Mac users can use Sequel Pro.
 * Windows Installation:
-[Instalation for Windows](https://dev.mysql.com/downloads/installer/)
+[click here](https://dev.mysql.com/downloads/installer/) and follow the instructions
 * Mac Installation:
-follow the following instructions:
+
     brew install mysql
 
-Once installed, you can use the schema.sql folder to create your database in MySQL. You’ll need to set this up in order for any future code to work properly.
+Once installed, you can use the schema.sql file to create your database in MySQL. You’ll need to set this up in order for any future code to work properly.
 
 
 This is a Node-based application designed to run in your terminal. You will need the node library installed as well as the following npm packages in order to get the app features to work in Node.js:
 
 *Node.js library installation
-
   -[Windows link](https://nodejs.org/en/)
-
   -Mac:
+
+
     brew install node
+
 
     npm install inquirer
     npm install mysql
@@ -31,7 +32,7 @@ From the customer view in the terminal a user will be able to do the following:
 
 View a list of current products for sale:
 
-(image screenshot)
+![products image](./images/store_front.png)
 
 2.Choose a product to purchase and the amount they desire:
 
