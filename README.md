@@ -19,14 +19,15 @@ This is a Node-based application designed to run in your terminal. You will need
   -[Windows link](https://nodejs.org/en/)
 
   -Mac:
-      brew install node
+    
+    brew install node
 
     npm install inquirer
     npm install mysql
     npm install cli-table
 
 
-###Customer View
+### Customer View
 From the customer view in the terminal a user will be able to do the following:
 View a list of current products for sale:
 (image screenshot)
@@ -42,26 +43,31 @@ If there is not enough of the product, the store will bounce back with a message
 From there, it will prompt the user if they wish to continue shopping or finish, at which point it will return them to the opening prompt or end the application.
 (screenshot)
 
-###Manager View
+### Manager View
 As a manager, the user will first be prompted with a list of options to choose from, that will then allow the user to complete different actions within the store:
 (img screenshot)
  
 *View Products:
+
 (img screenshot)
 
 *Low Inventory:
+
 (img screenshot)
 
 *Add to Inventory:
+
 (GIF link)
 
 *Add New Product:
+
 (GIF link)
 
 Once the selection has been made it will prompt the manager if they wish to return to the home menu or exit the program, at which point it will either return the beginning list options, or exit the application.
+
 (img screenshot)
 
-##Author
+## Author
 Carmen Stockberger - (github link)
 
 Cheers!
