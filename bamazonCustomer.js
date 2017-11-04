@@ -14,7 +14,6 @@ connection.connect(function(err){
 	if(err) throw err;
 	console.log("connected");
 	storeFront()
-	// start()
 });
 
 function storeFront(){
@@ -79,6 +78,7 @@ function start(){
 		if(chosenProduct.stock_quantity > parseInt(answer.quantity)){
 
 			var updatedStock = chosenProduct.stock_quantity - answer.quantity
+			var totalCost = chosenProduct.price * answer.quantity
 
 			connection.query(
 				'UPDATE products SET ? WHERE ?',
@@ -92,7 +92,8 @@ function start(){
 				],
 				function(err){
 					if(err) throw err;
-					console.log("Great, your order is on the way!");
+					console.log("Great, your order is on the way!")
+					console.log("Your total cost: " + totalCost);
 					continueShopping();
 				}
 			);
