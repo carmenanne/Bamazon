@@ -19,7 +19,6 @@ This is a Node-based application designed to run in your terminal. You will need
   -[Windows link](https://nodejs.org/en/)
 
   -Mac:
-    
     brew install node
 
     npm install inquirer
@@ -29,18 +28,25 @@ This is a Node-based application designed to run in your terminal. You will need
 
 ### Customer View
 From the customer view in the terminal a user will be able to do the following:
+
 View a list of current products for sale:
+
 (image screenshot)
+
 2.Choose a product to purchase and the amount they desire:
+
 (GIF link)
 
 If there is enough product in stock to complete the user’s order, the order will go through and display the total cost to the customer.
+
 (GIF link)
 
 If there is not enough of the product, the store will bounce back with a message explaining there is not enough.
+
 (GIF link)
 
 From there, it will prompt the user if they wish to continue shopping or finish, at which point it will return them to the opening prompt or end the application.
+
 (screenshot)
 
 ### Manager View
