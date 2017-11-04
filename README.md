@@ -6,20 +6,25 @@ Since this app requires MySQL, you will need to make sure that package is instal
 * Windows Installation:
 [Instalation for Windows](https://dev.mysql.com/downloads/installer/)
 * Mac Installation:
-follow the following instructions:    brew install mysql
+follow the following instructions:
+    brew install mysql
+
 Once installed, you can use the schema.sql folder to create your database in MySQL. You’ll need to set this up in order for any future code to work properly.
 
 
 This is a Node-based application designed to run in your terminal. You will need the node library installed as well as the following npm packages in order to get the app features to work in Node.js:
-*Node.js library installation
-  -[Windows link](https://nodejs.org/en/)
-  -Mac: ‘’’brew install node’’’
 
-‘’’
-npm install inquirer
-npm install mysql
-npm install cli-table
-‘’’
+*Node.js library installation
+
+  -[Windows link](https://nodejs.org/en/)
+
+  -Mac:
+      brew install node
+
+    npm install inquirer
+    npm install mysql
+    npm install cli-table
+
 
 ###Customer View
 From the customer view in the terminal a user will be able to do the following:
