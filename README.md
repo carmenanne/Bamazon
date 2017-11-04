@@ -61,7 +61,4 @@ Carmen Stockberger - (github link)
 
 Cheers!
 
-
-'''
-npm install inquirer
-'''
+    npm install inquirer
