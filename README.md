@@ -32,7 +32,7 @@ From the customer view in the terminal a user will be able to do the following:
 
 View a list of current products for sale:
 
-![products image](./images/store_front.png)
+![products image](/images/store_front.png)
 
 2.Choose a product to purchase and the amount they desire:
 
