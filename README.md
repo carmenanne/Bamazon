@@ -1,12 +1,12 @@
-#Bamazon App
+# Bamazon App
 This is a CLI application which functions like an online storefront. With two different features, the user can act as a ‘customer’, where they can view all available items and make purchases; or ‘manager’, where they will be able to view available inventory for all products, search for which items are low inventory, add inventory to any available products, and add entirely new products to the store options.
 
-##Getting Started
+## Getting Started
 Since this app requires MySQL, you will need to make sure that package is installed on your computer first. Windows users can use MySQL Workbench and Mac users can use Sequel Pro.
-*Windows Installation:
-(link)
-*Mac Installation:
-(link)
+* Windows Installation:
+[Instalation for Windows](https://dev.mysql.com/downloads/installer/)
+* Mac Installation:
+follow the following instructions:    brew install mysql
 Once installed, you can use the schema.sql folder to create your database in MySQL. You’ll need to set this up in order for any future code to work properly.
 
 
@@ -60,5 +60,3 @@ Once the selection has been made it will prompt the manager if they wish to retu
 Carmen Stockberger - (github link)
 
 Cheers!
-
-    npm install inquirer
