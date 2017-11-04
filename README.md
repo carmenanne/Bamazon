@@ -16,8 +16,8 @@ This is a Node-based application designed to run in your terminal. You will need
 
 *Node.js library installation
   -[Windows link](https://nodejs.org/en/)
-  -Mac:
 
+  -Mac:
 
     brew install node
 
@@ -32,7 +32,7 @@ From the customer view in the terminal a user will be able to do the following:
 
 View a list of current products for sale:
 
-![products image](/images/store_front.png)
+![products image](/images/store_front.PNG)
 
 2.Choose a product to purchase and the amount they desire:
 
