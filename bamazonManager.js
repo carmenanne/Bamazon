@@ -146,7 +146,7 @@ function addInventory(){
 }
 
 function newProduct(){
-	console.log('why no working?!?!?')
+
 	inquirer.prompt([
 	{
 		name: 'addNew',

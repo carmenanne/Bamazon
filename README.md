@@ -62,14 +62,14 @@ As a manager, the user will first be prompted with a list of options to choose f
 
 *Add to Inventory:
 
-(GIF link)
+![add to inventory](/images/add_stock.gif)
 
 *Add New Product:
 
-(GIF link)
+![new product](/images/new_product.gif)
 
 
 ## Author
-Carmen Stockberger - (github link)
+Carmen Stockberger - [https://github.com/carmenanne](https://github.com/carmenanne)
 
 Cheers!
